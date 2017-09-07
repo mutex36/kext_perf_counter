@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAF258671F61743700DBF9D9 /* kext_perf_counter.c in Sources */ = {isa = PBXBuildFile; fileRef = FAF258661F61743700DBF9D9 /* kext_perf_counter.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FAF258631F61743700DBF9D9 /* kext_perf_counter.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kext_perf_counter.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF258661F61743700DBF9D9 /* kext_perf_counter.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = kext_perf_counter.c; sourceTree = "<group>"; };
+		FAF258681F61743700DBF9D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAF2585F1F61743700DBF9D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAF258591F61743700DBF9D9 = {
+			isa = PBXGroup;
+			children = (
+				FAF258651F61743700DBF9D9 /* kext_perf_counter */,
+				FAF258641F61743700DBF9D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAF258641F61743700DBF9D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAF258631F61743700DBF9D9 /* kext_perf_counter.kext */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAF258651F61743700DBF9D9 /* kext_perf_counter */ = {
+			isa = PBXGroup;
+			children = (
+				FAF258661F61743700DBF9D9 /* kext_perf_counter.c */,
+				FAF258681F61743700DBF9D9 /* Info.plist */,
+			);
+			path = kext_perf_counter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FAF258601F61743700DBF9D9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FAF258621F61743700DBF9D9 /* kext_perf_counter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF2586B1F61743700DBF9D9 /* Build configuration list for PBXNativeTarget "kext_perf_counter" */;
+			buildPhases = (
+				FAF2585E1F61743700DBF9D9 /* Sources */,
+				FAF2585F1F61743700DBF9D9 /* Frameworks */,
+				FAF258601F61743700DBF9D9 /* Headers */,
+				FAF258611F61743700DBF9D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kext_perf_counter;
+			productName = kext_perf_counter;
+			productReference = FAF258631F61743700DBF9D9 /* kext_perf_counter.kext */;
+			productType = "com.apple.product-type.kernel-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAF2585A1F61743700DBF9D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Luis von der Eltz";
+				TargetAttributes = {
+					FAF258621F61743700DBF9D9 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7UL3QLWN6Q;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FAF2585D1F61743700DBF9D9 /* Build configuration list for PBXProject "kext_perf_counter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FAF258591F61743700DBF9D9;
+			productRefGroup = FAF258641F61743700DBF9D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAF258621F61743700DBF9D9 /* kext_perf_counter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAF258611F61743700DBF9D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAF2585E1F61743700DBF9D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF258671F61743700DBF9D9 /* kext_perf_counter.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FAF258691F61743700DBF9D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FAF2586A1F61743700DBF9D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FAF2586C1F61743700DBF9D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7UL3QLWN6Q;
+				INFOPLIST_FILE = kext_perf_counter/Info.plist;
+				MODULE_NAME = mutex36.kext_perf_counter;
+				MODULE_START = kext_perf_counter_start;
+				MODULE_STOP = kext_perf_counter_stop;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_BUNDLE_IDENTIFIER = "mutex36.kext-perf-counter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		FAF2586D1F61743700DBF9D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7UL3QLWN6Q;
+				INFOPLIST_FILE = kext_perf_counter/Info.plist;
+				MODULE_NAME = mutex36.kext_perf_counter;
+				MODULE_START = kext_perf_counter_start;
+				MODULE_STOP = kext_perf_counter_stop;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_BUNDLE_IDENTIFIER = "mutex36.kext-perf-counter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAF2585D1F61743700DBF9D9 /* Build configuration list for PBXProject "kext_perf_counter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF258691F61743700DBF9D9 /* Debug */,
+				FAF2586A1F61743700DBF9D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF2586B1F61743700DBF9D9 /* Build configuration list for PBXNativeTarget "kext_perf_counter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF2586C1F61743700DBF9D9 /* Debug */,
+				FAF2586D1F61743700DBF9D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAF2585A1F61743700DBF9D9 /* Project object */;
+}
